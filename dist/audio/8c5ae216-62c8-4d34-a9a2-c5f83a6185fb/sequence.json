@@ -1,0 +1,34 @@
+{
+  "duration": 880.03,
+  "loop": false,
+  "outPoints": [],
+  "objects": [
+    {
+      "objectId": "1-star-gauze",
+      "objectBehaviours": [
+        {
+          "behaviourType": "allowedEverywhere"
+        },
+        {
+          "behaviourType": "spread",
+          "behaviourParameters": {
+            "enableGainCompensation": false
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 0,
+          "duration": 879.05,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/01-star-gauze_000000/manifest.mpd",
+            "urlSafari": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/01-star-gauze_000000/manifest-safari.mpd"
+          }
+        }
+      ]
+    }
+  ]
+}
