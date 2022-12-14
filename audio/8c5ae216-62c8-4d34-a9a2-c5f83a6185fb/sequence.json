@@ -20,7 +20,7 @@
           "behaviourParameters": {
             "conditions": [
               {
-                "property": "device.deviceJoiningNumber",
+                "property": "device.deviceCurrentNumber",
                 "operator": "modulo",
                 "value": [
                   3,
@@ -35,7 +35,7 @@
       "items": [
         {
           "start": 61.94,
-          "duration": 8.77,
+          "duration": 8.84,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -46,7 +46,7 @@
         },
         {
           "start": 79.44,
-          "duration": 3.74,
+          "duration": 3.85,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -57,7 +57,7 @@
         },
         {
           "start": 93.94,
-          "duration": 2.28,
+          "duration": 2.38,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -68,7 +68,7 @@
         },
         {
           "start": 102.81,
-          "duration": 3.25,
+          "duration": 3.3,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -79,7 +79,7 @@
         },
         {
           "start": 110.44,
-          "duration": 5.46,
+          "duration": 5.56,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -90,7 +90,7 @@
         },
         {
           "start": 116.98,
-          "duration": 5.72,
+          "duration": 5.81,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -101,7 +101,7 @@
         },
         {
           "start": 135.74,
-          "duration": 5.69,
+          "duration": 5.79,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -112,7 +112,7 @@
         },
         {
           "start": 149.16,
-          "duration": 5.3,
+          "duration": 5.39,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -123,7 +123,7 @@
         },
         {
           "start": 167.02,
-          "duration": 2.72,
+          "duration": 2.82,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -134,7 +134,7 @@
         },
         {
           "start": 187.34,
-          "duration": 14.76,
+          "duration": 14.85,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -145,7 +145,7 @@
         },
         {
           "start": 206.68,
-          "duration": 17.46,
+          "duration": 17.54,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -155,8 +155,8 @@
           }
         },
         {
-          "start": 226.29,
-          "duration": 116.02,
+          "start": 226.16,
+          "duration": 116.16,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -184,7 +184,7 @@
           "behaviourParameters": {
             "conditions": [
               {
-                "property": "device.deviceJoiningNumber",
+                "property": "device.deviceCurrentNumber",
                 "operator": "modulo",
                 "value": [
                   3,
@@ -199,7 +199,7 @@
       "items": [
         {
           "start": 61.94,
-          "duration": 4.27,
+          "duration": 4.37,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -210,7 +210,7 @@
         },
         {
           "start": 73.94,
-          "duration": 5.77,
+          "duration": 5.84,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -221,7 +221,7 @@
         },
         {
           "start": 82.94,
-          "duration": 11.27,
+          "duration": 11.37,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -232,7 +232,7 @@
         },
         {
           "start": 97.94,
-          "duration": 12.77,
+          "duration": 12.85,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -243,7 +243,7 @@
         },
         {
           "start": 122.41,
-          "duration": 19.03,
+          "duration": 19.13,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -254,7 +254,7 @@
         },
         {
           "start": 154.01,
-          "duration": 21.08,
+          "duration": 21.17,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -265,7 +265,7 @@
         },
         {
           "start": 201.82,
-          "duration": 17.08,
+          "duration": 17.18,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -275,8 +275,8 @@
           }
         },
         {
-          "start": 221.59,
-          "duration": 115.12,
+          "start": 221.46,
+          "duration": 115.36,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -304,7 +304,7 @@
           "behaviourParameters": {
             "conditions": [
               {
-                "property": "device.deviceJoiningNumber",
+                "property": "device.deviceCurrentNumber",
                 "operator": "modulo",
                 "value": [
                   3,
@@ -319,7 +319,7 @@
       "items": [
         {
           "start": 61.94,
-          "duration": 4.27,
+          "duration": 4.37,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -330,7 +330,7 @@
         },
         {
           "start": 70.44,
-          "duration": 3.78,
+          "duration": 3.86,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -341,7 +341,7 @@
         },
         {
           "start": 79.44,
-          "duration": 3.74,
+          "duration": 3.85,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -352,7 +352,7 @@
         },
         {
           "start": 95.94,
-          "duration": 2.29,
+          "duration": 2.37,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -363,7 +363,7 @@
         },
         {
           "start": 102.81,
-          "duration": 3.25,
+          "duration": 3.3,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -374,7 +374,7 @@
         },
         {
           "start": 115.63,
-          "duration": 1.63,
+          "duration": 1.72,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -385,7 +385,7 @@
         },
         {
           "start": 135.73,
-          "duration": 5.75,
+          "duration": 5.83,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -396,7 +396,7 @@
         },
         {
           "start": 149.2,
-          "duration": 5.25,
+          "duration": 5.34,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -407,7 +407,7 @@
         },
         {
           "start": 166.73,
-          "duration": 2.81,
+          "duration": 2.92,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -418,7 +418,7 @@
         },
         {
           "start": 174.82,
-          "duration": 12.78,
+          "duration": 12.86,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -429,7 +429,7 @@
         },
         {
           "start": 201.82,
-          "duration": 5.14,
+          "duration": 5.23,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -439,8 +439,8 @@
           }
         },
         {
-          "start": 211.34,
-          "duration": 12.88,
+          "start": 211.32,
+          "duration": 12.99,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -450,8 +450,8 @@
           }
         },
         {
-          "start": 226.29,
-          "duration": 116.02,
+          "start": 226.16,
+          "duration": 116.16,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
