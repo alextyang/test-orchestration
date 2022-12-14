@@ -10,18 +10,6 @@
           "behaviourType": "allowedEverywhere"
         },
         {
-          "behaviourType": "prohibitedIf",
-          "behaviourParameters": {
-            "conditions": [
-              {
-                "property": "device.deviceIsMain",
-                "operator": "equals",
-                "value": true
-              }
-            ]
-          }
-        },
-        {
           "behaviourType": "spread",
           "behaviourParameters": {
             "enableGainCompensation": false
@@ -186,18 +174,6 @@
           "behaviourType": "allowedEverywhere"
         },
         {
-          "behaviourType": "prohibitedIf",
-          "behaviourParameters": {
-            "conditions": [
-              {
-                "property": "device.deviceIsMain",
-                "operator": "equals",
-                "value": true
-              }
-            ]
-          }
-        },
-        {
           "behaviourType": "spread",
           "behaviourParameters": {
             "enableGainCompensation": false
@@ -316,18 +292,6 @@
       "objectBehaviours": [
         {
           "behaviourType": "allowedEverywhere"
-        },
-        {
-          "behaviourType": "prohibitedIf",
-          "behaviourParameters": {
-            "conditions": [
-              {
-                "property": "device.deviceIsMain",
-                "operator": "equals",
-                "value": true
-              }
-            ]
-          }
         },
         {
           "behaviourType": "spread",
