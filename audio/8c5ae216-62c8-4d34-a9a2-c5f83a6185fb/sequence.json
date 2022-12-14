@@ -1,31 +1,499 @@
 {
-  "duration": 880.03,
+  "duration": 342.27,
   "loop": false,
   "outPoints": [],
   "objects": [
     {
-      "objectId": "1-star-gauze",
+      "objectId": "1-orchest-sounds",
       "objectBehaviours": [
         {
           "behaviourType": "allowedEverywhere"
+        },
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceIsMain",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          }
         },
         {
           "behaviourType": "spread",
           "behaviourParameters": {
             "enableGainCompensation": false
           }
+        },
+        {
+          "behaviourType": "preferredIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceJoiningNumber",
+                "operator": "modulo",
+                "value": [
+                  3,
+                  1
+                ],
+                "invertCondition": false
+              }
+            ]
+          }
         }
       ],
       "items": [
         {
-          "start": 0,
-          "duration": 879.05,
+          "start": 61.94,
+          "duration": 8.77,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/001-orchest-sounds_000000.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 79.44,
+          "duration": 3.74,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/001-orchest-sounds_000001.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 93.94,
+          "duration": 2.28,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/001-orchest-sounds_000002.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 102.81,
+          "duration": 3.25,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/001-orchest-sounds_000003.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 110.44,
+          "duration": 5.46,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/001-orchest-sounds_000004.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 116.98,
+          "duration": 5.72,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/001-orchest-sounds_000005.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 135.74,
+          "duration": 5.69,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/001-orchest-sounds_000006.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 149.16,
+          "duration": 5.3,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/001-orchest-sounds_000007.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 167.02,
+          "duration": 2.72,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/001-orchest-sounds_000008.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 187.34,
+          "duration": 14.76,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
             "type": "dash",
-            "url": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/01-star-gauze_000000/manifest.mpd",
-            "urlSafari": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/01-star-gauze_000000/manifest-safari.mpd"
+            "url": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/001-orchest-sounds_000009/manifest.mpd",
+            "urlSafari": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/001-orchest-sounds_000009/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 206.68,
+          "duration": 17.46,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/001-orchest-sounds_000010/manifest.mpd",
+            "urlSafari": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/001-orchest-sounds_000010/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 226.29,
+          "duration": 116.02,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/001-orchest-sounds_000011/manifest.mpd",
+            "urlSafari": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/001-orchest-sounds_000011/manifest-safari.mpd"
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "2-orchest-sounds",
+      "objectBehaviours": [
+        {
+          "behaviourType": "allowedEverywhere"
+        },
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceIsMain",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "spread",
+          "behaviourParameters": {
+            "enableGainCompensation": false
+          }
+        },
+        {
+          "behaviourType": "preferredIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceJoiningNumber",
+                "operator": "modulo",
+                "value": [
+                  3,
+                  2
+                ],
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 61.94,
+          "duration": 4.27,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/002-orchest-sounds_000000.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 73.94,
+          "duration": 5.77,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/002-orchest-sounds_000001.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 82.94,
+          "duration": 11.27,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/002-orchest-sounds_000002/manifest.mpd",
+            "urlSafari": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/002-orchest-sounds_000002/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 97.94,
+          "duration": 12.77,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/002-orchest-sounds_000003/manifest.mpd",
+            "urlSafari": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/002-orchest-sounds_000003/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 122.41,
+          "duration": 19.03,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/002-orchest-sounds_000004/manifest.mpd",
+            "urlSafari": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/002-orchest-sounds_000004/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 154.01,
+          "duration": 21.08,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/002-orchest-sounds_000005/manifest.mpd",
+            "urlSafari": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/002-orchest-sounds_000005/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 201.82,
+          "duration": 17.08,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/002-orchest-sounds_000006/manifest.mpd",
+            "urlSafari": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/002-orchest-sounds_000006/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 221.59,
+          "duration": 115.12,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/002-orchest-sounds_000007/manifest.mpd",
+            "urlSafari": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/002-orchest-sounds_000007/manifest-safari.mpd"
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "3-orchest-sounds",
+      "objectBehaviours": [
+        {
+          "behaviourType": "allowedEverywhere"
+        },
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceIsMain",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "spread",
+          "behaviourParameters": {
+            "enableGainCompensation": false
+          }
+        },
+        {
+          "behaviourType": "preferredIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceJoiningNumber",
+                "operator": "modulo",
+                "value": [
+                  3,
+                  3
+                ],
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 61.94,
+          "duration": 4.27,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/003-orchest-sounds_000000.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 70.44,
+          "duration": 3.78,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/003-orchest-sounds_000001.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 79.44,
+          "duration": 3.74,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/003-orchest-sounds_000002.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 95.94,
+          "duration": 2.29,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/003-orchest-sounds_000003.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 102.81,
+          "duration": 3.25,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/003-orchest-sounds_000004.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 115.63,
+          "duration": 1.63,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/003-orchest-sounds_000005.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 135.73,
+          "duration": 5.75,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/003-orchest-sounds_000006.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 149.2,
+          "duration": 5.25,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/003-orchest-sounds_000007.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 166.73,
+          "duration": 2.81,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/003-orchest-sounds_000008.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 174.82,
+          "duration": 12.78,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/003-orchest-sounds_000009/manifest.mpd",
+            "urlSafari": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/003-orchest-sounds_000009/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 201.82,
+          "duration": 5.14,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/003-orchest-sounds_000010.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 211.34,
+          "duration": 12.88,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/003-orchest-sounds_000011/manifest.mpd",
+            "urlSafari": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/003-orchest-sounds_000011/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 226.29,
+          "duration": 116.02,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/003-orchest-sounds_000012/manifest.mpd",
+            "urlSafari": "audio/8c5ae216-62c8-4d34-a9a2-c5f83a6185fb/003-orchest-sounds_000012/manifest-safari.mpd"
           }
         }
       ]
