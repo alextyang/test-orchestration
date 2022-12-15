@@ -1,5 +1,5 @@
 {
-  "duration": 342.27,
+  "duration": 300.89,
   "loop": false,
   "outPoints": [],
   "objects": [
@@ -7,16 +7,13 @@
       "objectId": "1-orchest-sounds",
       "objectBehaviours": [
         {
-          "behaviourType": "allowedEverywhere"
-        },
-        {
           "behaviourType": "spread",
           "behaviourParameters": {
             "enableGainCompensation": false
           }
         },
         {
-          "behaviourType": "preferredIf",
+          "behaviourType": "allowedIf",
           "behaviourParameters": {
             "conditions": [
               {
@@ -34,7 +31,7 @@
       ],
       "items": [
         {
-          "start": 54.52,
+          "start": 13.15,
           "duration": 4.48,
           "source": {
             "channelMapping": "stereo",
@@ -45,8 +42,8 @@
           }
         },
         {
-          "start": 65.94,
-          "duration": 4.95,
+          "start": 24.56,
+          "duration": 4.94,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -56,8 +53,8 @@
           }
         },
         {
-          "start": 79.44,
-          "duration": 3.94,
+          "start": 38.06,
+          "duration": 3.92,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -67,8 +64,8 @@
           }
         },
         {
-          "start": 93.93,
-          "duration": 2.48,
+          "start": 52.55,
+          "duration": 2.46,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -78,8 +75,8 @@
           }
         },
         {
-          "start": 102.81,
-          "duration": 3.45,
+          "start": 61.43,
+          "duration": 3.46,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -89,8 +86,8 @@
           }
         },
         {
-          "start": 110.43,
-          "duration": 12.48,
+          "start": 69.04,
+          "duration": 12.47,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -100,8 +97,8 @@
           }
         },
         {
-          "start": 135.73,
-          "duration": 5.88,
+          "start": 94.35,
+          "duration": 5.89,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -111,8 +108,8 @@
           }
         },
         {
-          "start": 149.16,
-          "duration": 5.5,
+          "start": 107.78,
+          "duration": 5.51,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -122,7 +119,7 @@
           }
         },
         {
-          "start": 156.7,
+          "start": 115.32,
           "duration": 4.4,
           "source": {
             "channelMapping": "stereo",
@@ -133,8 +130,8 @@
           }
         },
         {
-          "start": 167.01,
-          "duration": 2.93,
+          "start": 125.63,
+          "duration": 2.91,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -144,8 +141,8 @@
           }
         },
         {
-          "start": 187.32,
-          "duration": 14.96,
+          "start": 145.94,
+          "duration": 14.99,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -155,8 +152,8 @@
           }
         },
         {
-          "start": 206.66,
-          "duration": 17.67,
+          "start": 165.29,
+          "duration": 17.66,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -166,7 +163,7 @@
           }
         },
         {
-          "start": 226.16,
+          "start": 184.78,
           "duration": 116.16,
           "source": {
             "channelMapping": "stereo",
@@ -182,16 +179,13 @@
       "objectId": "2-orchest-sounds",
       "objectBehaviours": [
         {
-          "behaviourType": "allowedEverywhere"
-        },
-        {
           "behaviourType": "spread",
           "behaviourParameters": {
             "enableGainCompensation": false
           }
         },
         {
-          "behaviourType": "preferredIf",
+          "behaviourType": "allowedIf",
           "behaviourParameters": {
             "conditions": [
               {
@@ -209,7 +203,7 @@
       ],
       "items": [
         {
-          "start": 48.53,
+          "start": 7.15,
           "duration": 4.48,
           "source": {
             "channelMapping": "stereo",
@@ -220,8 +214,8 @@
           }
         },
         {
-          "start": 73.93,
-          "duration": 5.96,
+          "start": 32.55,
+          "duration": 5.95,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -231,8 +225,8 @@
           }
         },
         {
-          "start": 82.93,
-          "duration": 11.48,
+          "start": 41.55,
+          "duration": 11.46,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -242,7 +236,7 @@
           }
         },
         {
-          "start": 97.93,
+          "start": 56.55,
           "duration": 12.96,
           "source": {
             "channelMapping": "stereo",
@@ -253,8 +247,8 @@
           }
         },
         {
-          "start": 122.39,
-          "duration": 52.89,
+          "start": 81.03,
+          "duration": 52.87,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -264,8 +258,8 @@
           }
         },
         {
-          "start": 183.96,
-          "duration": 4.4,
+          "start": 142.58,
+          "duration": 4.41,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -275,7 +269,7 @@
           }
         },
         {
-          "start": 191.67,
+          "start": 150.29,
           "duration": 4.39,
           "source": {
             "channelMapping": "stereo",
@@ -286,7 +280,7 @@
           }
         },
         {
-          "start": 201.82,
+          "start": 160.44,
           "duration": 17.27,
           "source": {
             "channelMapping": "stereo",
@@ -297,7 +291,7 @@
           }
         },
         {
-          "start": 220.17,
+          "start": 178.8,
           "duration": 110.74,
           "source": {
             "channelMapping": "stereo",
@@ -313,16 +307,13 @@
       "objectId": "3-orchest-sounds",
       "objectBehaviours": [
         {
-          "behaviourType": "allowedEverywhere"
-        },
-        {
           "behaviourType": "spread",
           "behaviourParameters": {
             "enableGainCompensation": false
           }
         },
         {
-          "behaviourType": "preferredIf",
+          "behaviourType": "allowedIf",
           "behaviourParameters": {
             "conditions": [
               {
@@ -340,7 +331,7 @@
       ],
       "items": [
         {
-          "start": 43.5,
+          "start": 2.12,
           "duration": 4.48,
           "source": {
             "channelMapping": "stereo",
@@ -351,7 +342,7 @@
           }
         },
         {
-          "start": 70.43,
+          "start": 29.05,
           "duration": 3.97,
           "source": {
             "channelMapping": "stereo",
@@ -362,8 +353,8 @@
           }
         },
         {
-          "start": 79.44,
-          "duration": 3.94,
+          "start": 38.06,
+          "duration": 3.93,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -373,8 +364,8 @@
           }
         },
         {
-          "start": 95.93,
-          "duration": 2.47,
+          "start": 54.55,
+          "duration": 2.46,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -384,8 +375,8 @@
           }
         },
         {
-          "start": 102.81,
-          "duration": 3.45,
+          "start": 61.43,
+          "duration": 3.46,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -395,8 +386,8 @@
           }
         },
         {
-          "start": 115.62,
-          "duration": 1.83,
+          "start": 74.25,
+          "duration": 1.82,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -406,7 +397,7 @@
           }
         },
         {
-          "start": 135.72,
+          "start": 94.34,
           "duration": 5.93,
           "source": {
             "channelMapping": "stereo",
@@ -417,8 +408,8 @@
           }
         },
         {
-          "start": 149.19,
-          "duration": 8.12,
+          "start": 107.81,
+          "duration": 8.1,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -428,7 +419,7 @@
           }
         },
         {
-          "start": 160.52,
+          "start": 119.14,
           "duration": 4.39,
           "source": {
             "channelMapping": "stereo",
@@ -439,8 +430,8 @@
           }
         },
         {
-          "start": 166.72,
-          "duration": 3.02,
+          "start": 125.34,
+          "duration": 3.01,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -450,7 +441,7 @@
           }
         },
         {
-          "start": 174.82,
+          "start": 133.44,
           "duration": 10.21,
           "source": {
             "channelMapping": "stereo",
@@ -461,8 +452,8 @@
           }
         },
         {
-          "start": 187.83,
-          "duration": 4.41,
+          "start": 146.46,
+          "duration": 4.39,
           "source": {
             "channelMapping": "stereo",
             "panning": 0,
@@ -472,7 +463,7 @@
           }
         },
         {
-          "start": 195.53,
+          "start": 154.15,
           "duration": 4.4,
           "source": {
             "channelMapping": "stereo",
@@ -483,7 +474,7 @@
           }
         },
         {
-          "start": 201.81,
+          "start": 160.45,
           "duration": 5.34,
           "source": {
             "channelMapping": "stereo",
@@ -494,7 +485,7 @@
           }
         },
         {
-          "start": 211.31,
+          "start": 169.93,
           "duration": 13.08,
           "source": {
             "channelMapping": "stereo",
@@ -505,7 +496,7 @@
           }
         },
         {
-          "start": 226.16,
+          "start": 184.78,
           "duration": 116.16,
           "source": {
             "channelMapping": "stereo",
